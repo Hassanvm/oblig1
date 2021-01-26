@@ -1,0 +1,134 @@
+body { 
+    background-color: white; 
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main main";                                                      
+    grid-template-rows: 70px 50px 6fr;              
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+  }
+      
+ 
+    
+  #pageHeader {
+    grid-area: header;
+    text-align: center;
+    background: lightblue;
+  }
+    
+  #pageNav {
+    grid-area: nav;
+  }
+  
+  #mainMain { 
+    grid-area: main;   
+    background: white;
+  }  
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    box-shadow: 5px  rgba(0,0,0,0.3);}
+        
+.s1 {
+  position: absolute;
+  left: 70px;
+}
+
+.s2 {
+  position: absolute;
+  right: 70px;
+}
+
+h2 {
+  font-family: Franklin Gothic Medium;
+}
+
+h3 {
+  font-family: Gill Sans;
+}
+
+
+
+label, input {
+white-space: pre;
+display: block; 
+margin: auto;
+text-align: left;
+font-weight: 900;
+margin: 10px 0;
+}
+
+.holder {
+margin: auto;
+max-width: 800px;
+position: relative;
+top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 350px;
+  border-radius: 7px;
+  border: 0.2px solid black;
+  margin: 2px;
+}
+
+textarea {
+  border-radius: 7px;
+}
+
+.knappV {
+background-color: #a1e7cf;
+color: white;
+font-size: 110%;
+width: 110px;
+text-align: center;
+float: right;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+  .card {
+  padding: 25px 20px;
+  flex: 200px;
+  margin: 15px;
+  position: relative;
+  background: white;
+  border-radius: 7px;
+  font-size: 90%;
+  box-shadow: 0px 2px 3px 0px  rgba(45, 171, 221, 0.3);
+} 
+
+section {
+max-width: 266.6px;
+float: left;
+}
+
+
+  button {
+  background-color: #a1e7cf;
+  color: white;
+  padding: 1px;
+  width: 80px;
+  cursor: pointer;
+  text-decoration: none;
+  float: right;
+  border-radius: 7px;
+  border: 0.1px solid #a1e7cf;
+}
+
+
+
